@@ -90,7 +90,7 @@ public class WeatherData
         units = new Units(hourly_units["time"]!.GetValue<string>(),
         hourly_units["temperature_2m"]!.GetValue<string>(),
         hourly_units["surface_pressure"]!.GetValue<string>(),
-         hourly_units["relative_humidity_2m"]!.GetValue<string>(),
+        hourly_units["relative_humidity_2m"]!.GetValue<string>(),
         hourly_units["cloud_cover"]!.GetValue<string>(),
         hourly_units["wind_speed_10m"]!.GetValue<string>(),
         hourly_units["wind_direction_10m"]!.GetValue<string>());
